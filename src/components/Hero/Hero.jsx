@@ -9,7 +9,8 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm Adel</h1>
         <p className={styles.description}> I'm a Computer Science Engineer from Manipal Institute of technology, Manipal.
         I'm an aspiring web developer and software engineer with a strong foundation in front-end technologies.
-            Reach out if you'd like to connect with me.
+            
+            <p className={styles.description}>Reach out if you'd like to connect with me.</p>
         </p>
         <a className={styles.contactBtn} href="mailto:adeldsouza8@gmail.com">Contact Me</a>
     </div>

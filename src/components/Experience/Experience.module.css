@@ -71,7 +71,7 @@
     font-family: var(--font-roboto);
 }
 .historyItemDetails h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 .historyItemDetails p {
@@ -86,21 +86,68 @@
     margin-left: 17px;
 }
 @media screen and (max-width: 830px) {
+    .content {
+        margin-top: 40px; /* Reduce vertical spacing */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title {
+        font-size: 20px; /* Reduce font size */
+        font-weight: 600; /* Slightly lighter */
+        letter-spacing: 1px; /* Reduce letter spacing */
+    }
+
     .container {
-      flex-direction: column;
-      align-items: center;
-      gap: 34px;
+        flex-direction: column; /* Stack content */
+        align-items: center;
+        gap: 16px; /* Smaller gap between sections */
     }
-  
+
     .skills {
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
+        width: 100%; /* Utilize full width */
+        flex-wrap: wrap;
+        gap: 20px; /* Smaller gaps between skill items */
     }
-  
+
+    .skillImageContainer {
+        width: 65px; /* Shrink skill icons */
+        height: 60px;
+    }
+
+    .skillImageContainer img {
+        width: 40px; /* Resize images */
+    }
+
+    .skill p {
+        font-size: 14px; /* Smaller text for skills */
+    }
+
     .history {
-      width: 100%;
-      gap: 9px;
+        width: 100%; /* Make history section responsive */
+        gap: 16px; /* Adjust spacing between items */
+    }
+
+    .historyItem {
+        gap: 8px; /* Tighten spacing inside items */
+        padding: 12px; /* Reduce padding for compactness */
+    }
+
+    .historyItem img {
+        width: 30px; /* Smaller images */
+    }
+
+    .historyItemDetails h3 {
+        font-size: 20px; /* Reduce heading size */
+    }
+
+    .historyItemDetails p {
+        font-size: 14px; /* Shrink paragraph text */
+    }
+
+    .historyItemDetails ul {
+        font-size: 17px; /* Smaller list text */
+        margin-left: 8px; /* Adjust margins for compact view */
     }
 }
   

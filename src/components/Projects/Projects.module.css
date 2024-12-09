@@ -25,3 +25,8 @@
   gap: 15px;
   width: 100%;
 }
+@media (max-width: 830px) {
+  .title{
+    font-size: 20px;
+  }
+}
