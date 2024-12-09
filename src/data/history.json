@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Upcoming Software Engineer",
+    "organisation": "Google",
+    "startDate": "June, 2025",
+    "endDate": "August, 2025",
+    "experiences": ["Yet to work hehe", "pls wait for a few months<3"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Organsing Committee",
+    "organisation": "Revels Fest",
+    "startDate": "Jan, 2024",
+    "endDate": "March, 2024",
+    "experiences": [" Implemented an advanced database management system for the operations team",
+     " Fostered strong team collaboration and coordination, increasing volunteer retention rates by 40%."],
+    "imageSrc": "history/Revels.jpg"
+  }
+]

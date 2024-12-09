@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Jewellery Recommender",
+    "imageSrc": "projects/project.png",
+    "description": "A web application that provides personalized jewelry recommendations based on uploaded dress images.",
+    "skills": ["React", "Express", "Node.js", "Tailwind CSS", "CNN"],
+    
+    "source": "https://github.com/Addysd/MYNTRA-HackerRamp"
+  },
+  {
+    "title": "React Jobs",
+    "imageSrc": "projects/React.png",
+    "description": "A web application enabling users to browse, search, and post job listings, enhancing job-seeking and hiring processes.",
+    "skills": ["React", "Tailwind CSS", "React Router", "JSON Server", "Vite"],
+    "demo": "https://react-jobs-eta.vercel.app/", 
+    "source": "https://github.com/Addysd/React-Jobs"
+  },
+  {
+    "title": "Travel Management and Tour Booking",
+    "imageSrc": "projects/travel_management.png",
+    "description": "An application for travel agencies to organize tours and manage bookings for flights and hotels.",
+    "skills": ["C#", "SQLPlus"],
+     
+    "source": "https://github.com/Addysd/Travel-Management-and-Tour-Booking"
+  }
+]
