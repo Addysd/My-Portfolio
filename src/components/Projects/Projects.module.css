@@ -1,11 +1,29 @@
-@import "../../vars.css";
-
 .container {
   margin-top: 76px;
   color: var(--color-text);
-  margin-left: 10%;
+  margin-left: 10%; /* Adds margin to the container */
   margin-right: 10%;
-  
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.arrow {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
 }
 
 .title {
@@ -13,20 +31,46 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 30px; 
+  text-align: left; 
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+.projectCard {
+  width: 600px; 
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left; 
 }
+
+.allProjectsButton {
+  display: inline-block;
+  margin: 0 auto; 
+  padding: 12px 25px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 40px;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.allProjectsButton:hover {
+  background-color: var(--color-dark);
+  transform: scale(1.05); 
+}
+
 @media (max-width: 830px) {
-  .title{
+  .title {
     font-size: 20px;
+  }
+
+  .projectCard {
+    width: 90%; 
   }
 }

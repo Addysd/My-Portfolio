@@ -1,19 +1,43 @@
 [
   {
-    "title": "Jewellery Recommender",
+    "title": "Task Manager",
+    "imageSrc": "projects/travel_management.png",
+    "description": "A simple and intuitive task manager web application that allows users to add, edit, and mark tasks as completed. This application provides a minimalistic interface to manage daily tasks efficiently.",
+    "skills": ["Node.js", " Express","CSS","HTML","JavaScript","MongoDB"],
+     
+    "source": "https://github.com/Addysd/Task-Manager"
+  },
+  {
+    "title": "VentureJobs",
+    "imageSrc": "projects/React.png",
+    "description": "Welcome to VentureJobs - A web application enabling users to browse, search, and post job listings, enhancing job-seeking and hiring processes.",
+    "skills": ["React", "Tailwind CSS", "React Router", "JSON Server"],
+    "demo": "https://react-jobs-eta.vercel.app/", 
+    "source": "https://github.com/Addysd/React-Jobs"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/travel_management.png",
+    "description": "My personal portfolio website to showcase my skills, projects, and contact details.",
+    "skills": ["React", "CSS","Vercel"],
+     "demo": "my-portfolio-eight-pearl-68.vercel.app/",
+    "source": "https://github.com/Addysd/My-Portfolio"
+  },
+  {
+    "title": "TwitterSoz",
     "imageSrc": "projects/project.png",
-    "description": "A web application that provides personalized jewelry recommendations based on uploaded dress images.",
+    "description": "A web application that enables users to create, comment, like, and manage their posts and features user authentication, image uploads, and real-time notifications.",
+    "skills": ["React.js", "Express", "Node.js", "Tailwind CSS", "MongoDB"],
+    
+    "source": "https://github.com/Addysd/Social-Media-Web-Application"
+  },
+  {
+    "title": "Jewelmender",
+    "imageSrc": "projects/project.png",
+    "description": "A jewellery recommending web application that provides personalized jewelry recommendations based on uploaded dress images.",
     "skills": ["React", "Express", "Node.js", "Tailwind CSS", "CNN"],
     
     "source": "https://github.com/Addysd/MYNTRA-HackerRamp"
-  },
-  {
-    "title": "React Jobs",
-    "imageSrc": "projects/React.png",
-    "description": "A web application enabling users to browse, search, and post job listings, enhancing job-seeking and hiring processes.",
-    "skills": ["React", "Tailwind CSS", "React Router", "JSON Server", "Vite"],
-    "demo": "https://react-jobs-eta.vercel.app/", 
-    "source": "https://github.com/Addysd/React-Jobs"
   },
   {
     "title": "Travel Management and Tour Booking",

@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .blackbox{
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(21, 21, 21, 0.6);
     padding: 73px;
     border-radius: 15px ;
     position: relative;
@@ -16,22 +16,22 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .container{
     display: flex;
     align-items: center;
     flex-direction: row;
 }
-.aboutList {
+.journeyList {
     color: var(--color-text);
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-left: 20px;
 }
-.aboutImage {
-    width: 35%;
-  }
-.aboutItem {
+
+.journeyItem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,16 +47,27 @@
     background-repeat: no-repeat;
     transition: 0.4s;
 }
-.aboutItem:hover {
+.journeyItem:hover {
     background-size: 100% 100%;
 }
-.aboutItem h3 {
+.journeyItem h3 {
     font-size: 25px;
     font-weight: 600;
 }
-  
-.aboutItem p {
-    font-size: 25px;
+.journeyItem img {
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%; 
+  margin-right: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease;
+}
+
+.journeyItem img:hover {
+  transform: scale(1.1); 
+} 
+.journeyItem p {
+    font-size: 23px;
 }
 @media screen and (max-width: 830px) {
     .blackbox {
@@ -75,24 +86,24 @@
         margin-left: 15px;
       }
     
-    .aboutImage {
+    .journeyImage {
       display: none;
     }
   
-    .aboutList {
+    .journeyList {
       margin-top: 29px;
     }
   
-    .aboutItem {
+    .journeyItem {
       padding-left: 0;
       padding-right: 0;
     }
-    .aboutItem h3 {
+    .journeyItem h3 {
       font-size: 20px;
       
   }
     
-  .aboutItem p {
+  .journeyItem p {
       font-size: 18px;
   }
 }

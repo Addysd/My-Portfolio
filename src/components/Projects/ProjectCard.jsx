@@ -22,8 +22,13 @@ export const ProjectCard = ({
             Demo
           </a>
         )}
-        <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
-          Source
+        <a href={source} target="_blank" rel="noopener noreferrer" className={styles.githubButton}>
+          <img 
+            src="/assets/projects/github.png" 
+            alt="GitHub Repository" 
+            className={styles.githubLogo}
+          />
+          <span className={styles.buttonText}>Explore</span>
         </a>
       </div>
     </div>

@@ -18,21 +18,35 @@
   color: var(--color-text);
   z-index: 1;
 }
-
 .title {
-  font-size: 60px;
-  font-weight: 900;
-  margin-bottom: 33px;
-  font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 3px solid rgba(255, 255, 255, 0.75);
+    animation: typing 2s steps(25, end) 0s, 
+              blink 1s step-end infinite 1s;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 11ch; } 
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; } 
+  }
+  
 .description {
   font-size: 25px;
   font-family: var(--font-roboto);
@@ -52,6 +66,7 @@
     width:20%;
     z-index: 1;
     border-radius: 50%;;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

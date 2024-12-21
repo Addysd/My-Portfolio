@@ -8,12 +8,12 @@
     "imageSrc": "history/google.png"
   },
   {
-    "role": "Organsing Committee",
+    "role": "Organising Committee",
     "organisation": "Revels Fest",
     "startDate": "Jan, 2024",
     "endDate": "March, 2024",
     "experiences": [" Implemented an advanced database management system for the operations team",
-     " Fostered strong team collaboration and coordination, increasing volunteer retention rates by 40%."],
+     " Fostered strong team collaboration, increasing volunteer retention rates by 40%."],
     "imageSrc": "history/Revels.jpg"
   }
 ]
