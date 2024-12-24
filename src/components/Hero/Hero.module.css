@@ -33,19 +33,20 @@
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
-    border-right: 3px solid rgba(255, 255, 255, 0.75);
-    animation: typing 2s steps(25, end) 0s, 
+    
+    animation: typing 2s steps(25, end) 0s forwards, 
               blink 1s step-end infinite 1s;
-  }
-  
-  @keyframes typing {
+}
+
+@keyframes typing {
     from { width: 0; }
-    to { width: 11ch; } 
-  }
-  
-  @keyframes blink {
+    to { width: 11ch; 
+    border-right: none;} 
+}
+
+@keyframes blink {
     50% { border-color: transparent; } 
-  }
+}
   
 .description {
   font-size: 25px;
