@@ -57,27 +57,30 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 25px;
+  font-size: 18px; /* Smaller font size */
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
-  display: flex; 
-  align-items: center; 
+  padding: 6px 16px; /* Smaller padding */
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
+
+/* GitHub Button Styling */
 .githubButton {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 8px 16px; /* Adjusted padding */
   background-color: var(--color-primary);
   color: #fff;
-  gap: 10px;
+  gap: 8px; /* Smaller gap */
   text-decoration: none;
   border-radius: 100px;
   transition: background-color 0.3s;
 }
 
+/* GitHub Button Hover Styling */
 .githubButton:hover {
   background-color: var(--color-dark);
 }
@@ -107,26 +110,27 @@
   }
 
   .skills {
-    margin-top: 12px; 
-    gap: 10px; 
+    margin-top: 12px;
+    gap: 10px;
+  }
 
   .skill {
-    font-size: 18px; 
+    font-size: 18px;
     padding: 2px 12px;
   }
 
   .links {
-    margin-top: 16px; 
+    margin-top: 16px;
     gap: 12px;
   }
 
   .link {
-    font-size: 16px; 
-    padding: 1px 16px; 
+    font-size: 14px;  /* Even smaller font size for mobile */
+    padding: 4px 12px;  /* Even smaller padding */
   }
+
   .githubButton {
-    padding: 1px 10px; /* Adjust padding to make the button smaller */
-    
+    padding: 6px 12px; /* Smaller padding on mobile */
+    gap: 6px; /* Smaller gap */
   }
-}
 }
