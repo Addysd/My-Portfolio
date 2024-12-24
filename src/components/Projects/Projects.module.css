@@ -73,4 +73,9 @@
   .projectCard {
     width: 90%; 
   }
+  .allProjectsButton {
+    font-size: 17px;
+    
+  }
+  
 }
