@@ -20,7 +20,7 @@
     "imageSrc": "projects/travel_management.png",
     "description": "My personal portfolio website to showcase my skills, projects, and contact details.",
     "skills": ["React", "CSS","Vercel"],
-     "demo": "my-portfolio-eight-pearl-68.vercel.app/",
+     "demo": "https://adelportfolio.vercel.app/",
     "source": "https://github.com/Addysd/My-Portfolio"
   },
   {
