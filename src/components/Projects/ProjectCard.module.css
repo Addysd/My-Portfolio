@@ -50,7 +50,7 @@
   width: 100%;
   margin-top: 26px;
   display: flex;
-  gap: 10px;
+   gap: 10px;
   justify-content: space-around;
 }
 
@@ -123,6 +123,10 @@
   .link {
     font-size: 16px; 
     padding: 1px 16px; 
+  }
+  .githubButton {
+    padding: 1px 10px; /* Adjust padding to make the button smaller */
+    
   }
 }
 }
